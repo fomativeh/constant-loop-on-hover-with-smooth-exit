@@ -1,0 +1,48 @@
+body, html {
+  height:100%;
+}
+body {
+  font-family:Arial, sans-serif;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#1d1d1d;
+  flex-direction:column;
+  color:cyan;
+}
+h2 {
+  width:400px;
+  text-align:center;
+  line-height:1.5em;
+  font-weight:normal;
+}
+button {
+  margin-top:20px;
+  cursor:pointer;
+  border:none; 
+  background-color:purple;
+  color:#fff;
+  padding:10px 20px;
+}
+
+.circle {
+  text-align:center;
+  line-height:50px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:green;
+  color: white;
+  position:relative;
+  left:-100px;
+}
+.wrapper  {
+  width:400px;
+  height:300px;
+  background:#111;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
